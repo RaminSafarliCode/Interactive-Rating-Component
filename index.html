@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- <link rel="stylesheet" href="./assets/css/style.min.css" /> -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <div class="card__wrapper">
+          <div class="card__wrapper__star-wrp">
+            <img
+              class="card__wrapper__star-wrp__img"
+              src="./assets/images/icon-star.svg"
+              alt="star"
+            />
+          </div>
+          <h1 class="card__wrapper__header">How did we do?</h1>
+          <p class="card__wrapper__text">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+          <div class="card__wrapper__rating">
+            <div class="card__wrapper__rating__number">1</div>
+            <div class="card__wrapper__rating__number">2</div>
+            <div class="card__wrapper__rating__number">3</div>
+            <div class="card__wrapper__rating__number">4</div>
+            <div class="card__wrapper__rating__number">5</div>
+          </div>
+          <button class="card__wrapper__btn">Submit</button>
+        </div>
+        <div class="card__finish hide">
+          <img
+            class="card__finish__img"
+            src="./assets/images/illustration-thank-you.svg"
+            alt="Thank you!"
+          />
+          <span class="card__finish__wrp">
+            <p class="card__finish__wrp__selected">
+              You selected
+              <span class="card__finish__wrp__selected__score">?</span> out of 5
+            </p>
+          </span>
+          <h1 class="card__finish__header">Thank you!</h1>
+          <p class="card__finish__text">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don't hesitate to get in touch!
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

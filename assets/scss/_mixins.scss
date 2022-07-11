@@ -1,0 +1,15 @@
+@mixin flexbox($alignItems: center, $justifyContent: center) {
+  display: flex;
+  align-items: $alignItems;
+  justify-content: $justifyContent;
+}
+
+@mixin montserrat($fontWeight: 500) {
+  font-family: "Montserrat", sans-serif;
+  font-weight: $fontWeight;
+}
+
+@mixin fraunces($fontWeight: 500) {
+  font-family: "Fraunces", serif;
+  font-weight: $fontWeight;
+}
